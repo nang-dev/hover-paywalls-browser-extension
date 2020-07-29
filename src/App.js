@@ -16,7 +16,7 @@ import EnablePaywallBtn from './paywall_buttons/EnablePaywallBtn.js'
 import PaywallSpoofBtn from './paywall_buttons/PaywallSpoofBtn.js'
 import PaywallCookieBtn from './paywall_buttons/PaywallCookieBtn.js'
 
-import DonateBtn from './DonateBtn.js'
+import ReportBtn from './ReportBtn.js'
 
 import logo from './hover_logo.jpg'
 import './App.css';
@@ -94,8 +94,8 @@ class App extends React.Component {
                         <Accordion.Collapse eventKey="3">
                         <Card.Body>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item text-center" style={{fontSize:"14px"}}>Liking The Features? Consider Donating A Dollar To The Project!</li>
-                                <li class="list-group-item text-center"><DonateBtn></DonateBtn></li>
+                                <li class="list-group-item text-center" style={{fontSize:"14px"}}>Something Not Working?</li>
+                                <li class="list-group-item text-center"><ReportBtn></ReportBtn></li>
                             </ul>
                         </Card.Body>
                         </Accordion.Collapse>

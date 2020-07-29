@@ -1,5 +1,5 @@
 /*
- * DonateBtn.js renders the button to use Donate to bypass paywalls
+ * ReportBtn.js renders the button to use report bugs
  */
 
 
@@ -9,7 +9,7 @@ import React, { Component } from "react";
 import Button from 'react-bootstrap/Button';
 
 
-class DonateBtn extends Component {
+class ReportBtn extends Component {
   constructor() {
     super();
     this.state = {
@@ -17,16 +17,16 @@ class DonateBtn extends Component {
   }
 
   donate = () => {
-    let url = "https://www.paypal.me/sponsorhover"
+    let url = "https://github.com/hover-inc/hover-extension/issues/new"
     chrome.tabs.create({url: url, active: true});
   }
 
   render() {
     return (<div>
-                <Button onClick={this.donate} variant="outline-info">Sponsor</Button>
+                <Button onClick={this.donate} variant="outline-info">Report Bug</Button>
             </div>
     );
   }
 }
 
-export default DonateBtn;
+export default ReportBtn;
