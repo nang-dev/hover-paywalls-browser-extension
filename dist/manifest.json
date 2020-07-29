@@ -1,0 +1,35 @@
+{
+  "name": "Hover - Bypass Paywalls & Subscription Walls", 
+  "description": "Hover is an undetectable, lightweight extension that automatically bypasses paywalls and blocks all ads.",
+  "manifest_version": 2,
+  "version": "2.2.0", 
+  "background": {
+    "scripts": ["bg_scripts/tab_data.js",
+                "bg_scripts/adblock_scripts/ad_domains.js", 
+                "bg_scripts/paywall_scripts/paywall_specific_routes.js",
+                "bg_scripts/adblock_scripts/adblock_storage.js", 
+                "bg_scripts/paywall_scripts/paywall_sites.js", 
+                "bg_scripts/adblock_scripts/adblock.js", 
+                "bg_scripts/paywall_scripts/paywall_bypass.js",
+                "bg_scripts/paywall_scripts/paywall_storage.js", 
+                "bg_scripts/paywall_scripts/paywall_cookies.js",
+                "bg_scripts/paywall_scripts/paywall_spoof.js",
+                "bg_scripts/auto_update.js"
+                ]
+  },
+  "browser_action": {
+      "default_popup": "popup.html"
+  },
+  "permissions": ["webRequest", 
+                  "webRequestBlocking", 
+                  "http://*/", 
+                  "https://*/", 
+                  "storage", 
+                  "activeTab", 
+                  "background", 
+                  "cookies", 
+                  "contentSettings"],
+  "icons": { "16": "logo16.png",
+             "48": "logo48.png",
+             "128": "logo128.png" }
+}
