@@ -59,20 +59,20 @@ function bypassPaywalls(details) {
   
   if (!(rootSearch in paywallSpoofWhitelistDict)) {
     //Spoof our device as a Google Crawler
-    var google_adbot_UA = "AdsBot-Google (+http://www.google.com/adsbot.html)"
     details.requestHeaders = details.requestHeaders.filter(function(header) {
       if(header.name === "User-Agent" || header.name === "X-Forwarded-For") {
         return false
       }
       return true
     })
+    var google_adbot_UA = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/W.X.Y.Z‡ Safari/537.36"
     details.requestHeaders.push({
       "name": "User-Agent",
       "value": google_adbot_UA
     })
     details.requestHeaders.push({
       "name": "X-Forwarded-For",
-      "value": "66.102.0.0"
+      "value": "66.249.66.1"
     })
     console.log("Spoofed as google crawler")
   }

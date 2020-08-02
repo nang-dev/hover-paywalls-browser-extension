@@ -5081,14 +5081,9 @@ var adDomains = [
     "*://*.adservice.google.de/*",
     "*://*.adservice.google.ie/*",
     "*://*.adservice.google.nl/*",
-    "*://*.googleadservices.co.uk/*",
-    "*://*.googleadservices.com/*",
     "*://*.4.afs.googleadservices.com/*",
     "*://*.pagead2.googleadservices.com/*",
     "*://*.partner.googleadservices.com/*",
-    "*://*.www.googleadservices.com/*",
-    "*://*.googleadservices.org/*",
-    "*://*.googleadservices.ru/*",
     "*://*.static.googleadsserving.cn/*",
     "*://*.clientmetrics-pa.googleapis.com/*",
     "*://*.ad-creatives-public.commondatastorage.googleapis.com/*",
@@ -12156,6 +12151,7 @@ var adDomains = [
     "*://*.zumobi.com/*",
     "*://*.zwaar.org/*",
     "*://*.api.zwizzarmyknife.com/*",
-    "*://*.log-collector.svctr.zynga.com/*"]
+    "*://*.log-collector.svctr.zynga.com/*",
+]
 
 

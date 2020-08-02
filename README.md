@@ -19,8 +19,8 @@ Blocks ads on websites without getting detected.
 Fork the repository and improve Hover!
 Make edits in src folder, and then run ```npm run build```. This will create the dist folder, which is used by browsers.
 
-Current stable version: 2.2.1
-Dev version: 2.2.2
+Current stable version: 2.2.2
+Dev version: 2.2.3
 
 ## Next Steps
 Transfer into a Firefox extension.

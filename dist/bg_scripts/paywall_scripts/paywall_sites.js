@@ -58,6 +58,8 @@ var paywallBlacklistDict = {
     "*://*.technologyreview.com/*": "1",
     "*://*.theage.com.au/*": "1",
     "*://*.theaustralian.com.au/*": "1",
+    "*://*.theathletic.com/*": "1",
+    "*://*.theathletic.co.uk/*": "1",
     "*://*.thenation.com/*": "1",
     "*://*.thestreet.com/*": "1",
     "*://*.thesundaytimes.co.uk/*": "1",
@@ -82,5 +84,7 @@ var paywallCookieWhitelistDict = {
     "*://*.nytimes.com/*": "1",
     "*://*.quora.com/*": "1",
     "*://*.wired.com/*": "1",
-    "*://*.newyorker.com/*": "1"
+    "*://*.newyorker.com/*": "1",
+    "*://*.theathletic.com/*": "1",
+    "*://*.theathletic.co.uk/*": "1",
 }
