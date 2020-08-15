@@ -1,8 +1,11 @@
+Hover v2.2.3 8-11-2020
+Edit manifest.json and metadata.
+
 Hover v2.2.2 8-1-2020
-Add paywall bypass on theathletic.com 
+Add paywall bypass on theathletic.com.
 
 Hover v2.2.1 7-30-2020
-Add "Report Bug" Button
+Add "Report Bug" Button.
 
 Hover v2.2.0 7-25-2020
-Full functionality on Chrome Web Store
+Full functionality on Chrome Web Store.

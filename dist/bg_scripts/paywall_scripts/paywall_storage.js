@@ -6,7 +6,6 @@ var paywallInBlacklist = false;
 
 function checkPaywallBlackList(root) {
   rootSearch = "*://*." + root + "/*"
-  console
   if(root !== "failed") {
     paywallInBlacklist = (rootSearch in paywallBlacklistDict)
     paywallEnabled =  (rootSearch in paywallBlacklistDict)
@@ -53,12 +52,13 @@ function addToPaywallBlacklist(root) {
   });
 }
 
-function removeFromPaywallBlacklist(root) {
+function removeFromPaywallBlacklist(root)  {
   chrome.storage.sync.get(["paywallBlacklistDict"],
   (result) => {
     updResult = result.paywallBlacklistDict
     root = "*://*." + root + "/*"
 
+    console.log("Deleting " + root + "from Paywall Blacklist")
     //Remove root from paywallBlacklistDict
     delete updResult[root]; 
 

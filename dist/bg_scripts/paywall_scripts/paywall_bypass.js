@@ -29,6 +29,7 @@ function bypassPaywalls(details) {
 
   paywallEnabled = true;
   //Redirect Referer
+
   details.requestHeaders = details.requestHeaders.filter(function(header) {
     if(header.name === "Referer")
       return false
