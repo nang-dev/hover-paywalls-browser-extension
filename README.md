@@ -21,7 +21,7 @@ Blocks ads on websites without getting detected.
 2. Unzip the file and you should have a folder named `hover-extension-master`.
 3. In Chrome go to the extensions page (`chrome://extensions`).
 4. Enable Developer Mode.
-5. Drag the `hover-extension-master` folder anywhere on the page to import it (do not delete the folder afterwards).
+5. Drag the `dist` folder inside `hover-extension-master` anywhere on the Chrome page to import it (do not delete the folder afterwards).
 6. Enjoy!
 
 # How To Contribute
