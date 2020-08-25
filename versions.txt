@@ -1,3 +1,9 @@
+Hover v2.2.4 8-23-2020
+Remove Adblock Functionality (Chrome Store does not allow multiple features in tool)
+
+Hover v2.2.4 8-23-2020
+Remove Adblock Settings (Chrome Store does not allow multiple features in tool)
+
 Hover v2.2.3 8-11-2020
 Edit manifest.json and metadata.
 

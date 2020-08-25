@@ -44,9 +44,9 @@ class PaywallSpoofBtn extends Component {
     let bg = chrome.extension.getBackgroundPage();
     if(bg.paywallEnabled) {
       if(this.state.inSpoofWhitelist)
-        listBtn = <Button onClick={this.removeFromSpoofWhitelist} variant="warning" style={{fontSize:"15px"}}>Spoof Site for Paywall</Button>
+        listBtn = <Button onClick={this.removeFromSpoofWhitelist} variant="warning" style={{fontSize:"15px"}}>Spoof Site as Crawler</Button>
       else
-        listBtn = <Button onClick={this.addToSpoofWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unspoof Site for Paywall</Button>
+        listBtn = <Button onClick={this.addToSpoofWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unspoof Site Aa Crawler</Button>
     }
     else {
       listBtn = <Button onClick={this.addToSpoofWhitelist} variant="outline-info" style={{fontSize:"15px"}} disabled>Paywall Bypass Disabled</Button>

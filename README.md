@@ -1,6 +1,6 @@
 ![Hover](slideshow/hover_logo.png)
 
-### An open-sourced extension that automatically blocks all ads and bypasses paywalls.
+### An open-sourced extension that allows you to access important, blocked information.
 
 # Features
 
@@ -28,8 +28,8 @@ Blocks ads on websites without getting detected.
 Fork the repository and improve Hover!
 Make edits in src folder, and then run ```npm run build```. This will create the dist folder, which is used by browsers.
 
-Current stable version: 2.2.3
-Dev version: 2.2.4
+Current stable version: 2.2.5
+Dev version: 2.2.6
 
 ## Next Steps
 Transfer into a Firefox extension.

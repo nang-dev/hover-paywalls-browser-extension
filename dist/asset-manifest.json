@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.bfd9321d.chunk.css",
-    "main.js": "/static/js/main.18e5b942.chunk.js",
+    "main.js": "/static/js/main.818031d3.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7c909dd.js",
-    "static/js/2.2f5ddc2b.chunk.js": "/static/js/2.2f5ddc2b.chunk.js",
+    "static/js/2.f240d2f8.chunk.js": "/static/js/2.f240d2f8.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.1462c08abe0b208b172921f9e1a9589a.js": "/precache-manifest.1462c08abe0b208b172921f9e1a9589a.js",
+    "precache-manifest.51c06e97938f5550f8324f62f6787e13.js": "/precache-manifest.51c06e97938f5550f8324f62f6787e13.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.2f5ddc2b.chunk.js.LICENSE.txt": "/static/js/2.2f5ddc2b.chunk.js.LICENSE.txt",
+    "static/js/2.f240d2f8.chunk.js.LICENSE.txt": "/static/js/2.f240d2f8.chunk.js.LICENSE.txt",
     "static/media/hover_logo.jpg": "/static/media/hover_logo.d2a9c858.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a7c909dd.js",
-    "static/js/2.2f5ddc2b.chunk.js",
+    "static/js/2.f240d2f8.chunk.js",
     "static/css/main.bfd9321d.chunk.css",
-    "static/js/main.18e5b942.chunk.js"
+    "static/js/main.818031d3.chunk.js"
   ]
 }

@@ -71,6 +71,9 @@ var paywallBlacklistDict = {
     "*://*.wsj.net/*": "1"
 }
 
+var paywallSMWhitelistDict = {
+}
+
 var paywallSpoofWhitelistDict = {
     "*://*.medium.com/*": "1",
     "*://*.towardsdatascience.com/*": "1",
