@@ -1,16 +1,20 @@
 {
-  "name": "Hover - Bypass Paywalls & Subscription Walls", 
-  "description": "An undetectable, lightweight extension that bypasses paywalls so you can access important information with ease.",
+  "name": "Hover - Browse Important Content", 
+  "description": "An undetectable, lightweight extension that allows you to browse important information with ease and without distractions.",
   "manifest_version": 2,
-  "version": "2.2.5", 
+  "version": "2.2.7", 
   "background": {
     "scripts": ["bg_scripts/tab_data.js",
+                "bg_scripts/adblock_scripts/ad_domains.js", 
+                "bg_scripts/adblock_scripts/adblock_storage.js", 
+                "bg_scripts/adblock_scripts/adblock.js", 
                 "bg_scripts/paywall_scripts/paywall_sites.js", 
                 "bg_scripts/paywall_scripts/paywall_bypass.js",
                 "bg_scripts/paywall_scripts/paywall_storage.js", 
                 "bg_scripts/paywall_scripts/paywall_cookies.js",
                 "bg_scripts/paywall_scripts/paywall_spoof.js",
                 "bg_scripts/paywall_scripts/paywall_SM.js",
+                "bg_scripts/paywall_scripts/paywall_lists.js",
                 "bg_scripts/auto_update.js"
                 ]
   },
@@ -22,9 +26,7 @@
                   "http://*/", 
                   "https://*/", 
                   "storage", 
-                  "activeTab", 
                   "background", 
-                  "cookies", 
                   "contentSettings"],
   "icons": { "16": "logo16.png",
              "48": "logo48.png",

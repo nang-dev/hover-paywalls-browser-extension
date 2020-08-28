@@ -1,31 +1,9 @@
 /*
- * paywall_spoof.js contains all the functionality for the paywall blacklist for spoofing as google crawler
+ * paywall_SM.js contains all the functionality for the paywall blacklist for changing 
+ * referer to be from Social Media site
  */
 
 var paywallInSMWhitelist = true;
-
-function checkPaywallSMWhitelist(details) {
-  root = extractRootWebsite(details.url)
-  rootSearch = "*://*." + root + "/*"
-  if(root !== "failed")
-    paywallInSMWhitelist =  (rootSearch in paywallSMWhitelistDict)
-}
-
-chrome.webRequest.onCompleted.addListener(checkPaywallSMWhitelist, 
-{
-  urls: ["<all_urls>"],
-  types: ["main_frame"],
-})
-
-//Set the storage to default site blacklist on install
-function setDefaultPaywallSMWhitelist(details) {
-  if (details.reason === 'install') {
-    chrome.storage.sync.set({
-      paywallSMWhitelistDict: paywallSMWhitelistDict
-    })
-  }
-}
-chrome.runtime.onInstalled.addListener(setDefaultPaywallSMWhitelist);
 
 function addToPaywallSMWhitelist(root) {
   chrome.storage.sync.get(["paywallSMWhitelistDict"],

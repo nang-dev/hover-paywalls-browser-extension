@@ -11,6 +11,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 
+import EnableAdblockBtn from './adblock_buttons/EnableAdblockBtn.js'
 import EnablePaywallBtn from './paywall_buttons/EnablePaywallBtn.js'
 import PaywallSpoofBtn from './paywall_buttons/PaywallSpoofBtn.js'
 import PaywallCookieBtn from './paywall_buttons/PaywallCookieBtn.js'
@@ -42,7 +43,7 @@ class App extends React.Component {
                             <Image src={logo} fluid/>
                         </div>
                     </div>
-                    <p style={{fontSize:"15px"}}>An undetectable, lightweight extension that bypasses paywalls so you can access important information with ease.</p>
+                    <p style={{fontSize:"15px"}}>An undetectable, lightweight extension that allows you to browse important information with ease and without distractions.</p>
                 </div>
                 <div class="text-center">
                 </div>
@@ -56,8 +57,20 @@ class App extends React.Component {
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item text-center">
                                     <EnablePaywallBtn rerenderParentCallback={this.rerenderParentCallback}></EnablePaywallBtn>
+                                    <EnableAdblockBtn rerenderParentCallback={this.rerenderParentCallback}></EnableAdblockBtn>
                                 </li>
                             </ul>
+                            </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                    <Card>
+                        <Accordion.Toggle as={Card.Header} eventKey="0">
+                            Metrics
+                        </Accordion.Toggle>
+                        <Accordion.Collapse eventKey="0">
+                        <Card.Body>
+                            <b>Total Items Blocked: <span style={{color:"#31afb4"}}>{bg.blockedCount}</span> </b>
+                            <p style={{fontSize:"14px"}}>(Blocking Ads and Tracking Modules)</p>
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>
