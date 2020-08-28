@@ -15,6 +15,8 @@ import EnableAdblockBtn from './adblock_buttons/EnableAdblockBtn.js'
 import EnablePaywallBtn from './paywall_buttons/EnablePaywallBtn.js'
 import PaywallSpoofBtn from './paywall_buttons/PaywallSpoofBtn.js'
 import PaywallCookieBtn from './paywall_buttons/PaywallCookieBtn.js'
+import PaywallSMBtn from './paywall_buttons/PaywallSMBtn.js'
+
 
 import ReportBtn from './ReportBtn.js'
 
@@ -41,7 +43,7 @@ class App extends React.Component {
                             <Image src={logo} fluid/>
                         </div>
                     </div>
-                    <p style={{fontSize:"15px"}}>An undetectable, lightweight extension that automatically bypasses paywalls and blocks all ads.</p>
+                    <p style={{fontSize:"15px"}}>An undetectable, lightweight extension that allows you to browse important information with ease and without distractions.</p>
                 </div>
                 <div class="text-center">
                 </div>
@@ -54,10 +56,8 @@ class App extends React.Component {
                             <Card.Body>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item text-center">
-                                    <EnableAdblockBtn rerenderParentCallback={this.rerenderParentCallback}></EnableAdblockBtn>
-                                </li>
-                                <li class="list-group-item text-center">
                                     <EnablePaywallBtn rerenderParentCallback={this.rerenderParentCallback}></EnablePaywallBtn>
+                                    <EnableAdblockBtn rerenderParentCallback={this.rerenderParentCallback}></EnableAdblockBtn>
                                 </li>
                             </ul>
                             </Card.Body>
@@ -81,6 +81,7 @@ class App extends React.Component {
                         <Accordion.Collapse eventKey="2">
                         <Card.Body>
                             <ul class="list-group list-group-flush">
+                                <li class="list-group-item text-center"><PaywallSMBtn rerenderParentCallback={this.rerenderParentCallback}></PaywallSMBtn></li>
                                 <li class="list-group-item text-center"><PaywallSpoofBtn rerenderParentCallback={this.rerenderParentCallback}></PaywallSpoofBtn></li>
                                 <li class="list-group-item text-center"><PaywallCookieBtn rerenderParentCallback={this.rerenderParentCallback}></PaywallCookieBtn></li>
                             </ul>

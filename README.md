@@ -1,14 +1,12 @@
 ![Hover](slideshow/hover_logo.png)
 
-### An open-sourced extension that automatically blocks all ads and bypasses paywalls.
+### An open-sourced extension that allows you to browse important information with ease and without distractions
 
-# Features
+![Hover_1](slideshow/ss8/1.png)
+![Hover_2](slideshow/ss8/2.png)
+![Hover_3](slideshow/ss8/3.png)
 
-## Paywall / Subscription Wall Bypasser
-Gain access to content and articles without having to sign in or upgrade to Premium.
-
-## Undetectable Ad-Blocker
-Blocks ads on websites without getting detected.
+Browse more content on the internet. Made so you can access important information, on topics like coronavirus and elections, with ease and without ads, blocks, or tracking modules. 
 
 # Installation
 
@@ -28,8 +26,16 @@ Blocks ads on websites without getting detected.
 Fork the repository and improve Hover!
 Make edits in src folder, and then run ```npm run build```. This will create the dist folder, which is used by browsers.
 
-Current stable version: 2.2.3
-Dev version: 2.2.4
+Current stable version: 2.2.7
+Dev version: 2.2.8
 
 ## Next Steps
 Transfer into a Firefox extension.
+
+## Notes
+
+-The only permissions/settings the extension utilizes are for webRequest and cookie functionality, and nothing more.
+-Methods like using outline.com and simply using Incognito Mode are outdated and no longer work on most sites.
+
+Disclaimer: 
+Do not use this extension to violate the terms of service/use of any website.

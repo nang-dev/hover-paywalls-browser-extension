@@ -64,7 +64,7 @@ class EnablePaywallBtn extends Component {
   render() {
     let enableBtn;
     let bg = chrome.extension.getBackgroundPage();
-    console.log("Paywall Enabled: " + bg.paywallEnabled)
+    console.log("Hover Enabled: " + bg.paywallEnabled)
     let enabled = (bg.paywallEnabled)
     enableBtn = <BootstrapSwitchButton onChange={this.togglePaywall} checked={enabled} onlabel={'On '} offlabel={'Off'} width={65} onstyle="info" />
 
@@ -72,7 +72,7 @@ class EnablePaywallBtn extends Component {
       <Container fluid>
         <Row>
           <Col xs={7} >
-            <b>Bypass Paywalls</b><br></br>
+            <b>Hover</b><br></br>
             <p style={{fontSize:"14px"}}>(On Site):</p>
           </Col>
           <Col xs={5}>
