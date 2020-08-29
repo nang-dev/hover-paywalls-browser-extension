@@ -49,7 +49,7 @@ class PaywallCookieBtn extends Component {
         listBtn = <Button onClick={this.addToCookieWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unblock Cookies</Button>
     }
     else {
-      listBtn = <Button variant="outline-info" style={{fontSize:"15px"}} disabled>Hover Disabled On Site</Button>
+      listBtn = <Button variant="outline-info" style={{fontSize:"15px"}} disabled>Bypass Paywall Disabled On Site</Button>
     }
     return (<div>
       {listBtn}

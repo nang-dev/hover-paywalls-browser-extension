@@ -49,7 +49,7 @@ class PaywallSMBtn extends Component {
         listBtn = <Button onClick={this.addToSMWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unchange Referrer Header</Button>
     }
     else {
-      listBtn = <Button onClick={this.addToSMWhitelist} variant="outline-info" style={{fontSize:"15px"}} disabled>Hover Disabled On Site</Button>
+      listBtn = <Button onClick={this.addToSMWhitelist} variant="outline-info" style={{fontSize:"15px"}} disabled>Bypass Paywall Disabled On Site</Button>
     }
     return (<div>
       {listBtn}
