@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.bfd9321d.chunk.css",
-    "main.js": "/static/js/main.d1a4d6d1.chunk.js",
+    "main.js": "/static/js/main.a4d22f1d.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.a7c909dd.js",
     "static/js/2.82a4949e.chunk.js": "/static/js/2.82a4949e.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.77fbf9493eeba134b1e0c0bce97b5a75.js": "/precache-manifest.77fbf9493eeba134b1e0c0bce97b5a75.js",
+    "precache-manifest.dd2c372291a303d63f6166f6216ca1ac.js": "/precache-manifest.dd2c372291a303d63f6166f6216ca1ac.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.82a4949e.chunk.js.LICENSE.txt": "/static/js/2.82a4949e.chunk.js.LICENSE.txt",
     "static/media/hover_logo.jpg": "/static/media/hover_logo.d2a9c858.jpg"
@@ -14,6 +14,6 @@
     "static/js/runtime-main.a7c909dd.js",
     "static/js/2.82a4949e.chunk.js",
     "static/css/main.bfd9321d.chunk.css",
-    "static/js/main.d1a4d6d1.chunk.js"
+    "static/js/main.a4d22f1d.chunk.js"
   ]
 }

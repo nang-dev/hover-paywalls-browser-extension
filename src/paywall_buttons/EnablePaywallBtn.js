@@ -72,7 +72,7 @@ class EnablePaywallBtn extends Component {
       <Container fluid>
         <Row>
           <Col xs={7} >
-            <b>Hover</b><br></br>
+            <b>Bypass Paywalls</b><br></br>
             <p style={{fontSize:"14px"}}>(On Site):</p>
           </Col>
           <Col xs={5}>

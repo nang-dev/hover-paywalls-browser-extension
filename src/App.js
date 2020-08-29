@@ -43,7 +43,7 @@ class App extends React.Component {
                             <Image src={logo} fluid/>
                         </div>
                     </div>
-                    <p style={{fontSize:"15px"}}>An undetectable, lightweight extension that allows you to browse important information with ease and without distractions.</p>
+                    <p style={{fontSize:"15px"}}>An undetectable, lightweight extension that allows you to access important information with ease and without distractions.</p>
                 </div>
                 <div class="text-center">
                 </div>
