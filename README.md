@@ -1,6 +1,6 @@
 ![Hover](slideshow/hover_logo.png)
 
-### An open-sourced extension that automatically blocks all ads and bypasses paywalls.
+### An open-sourced extension that that bypasses paywalls and blocks ads. Made so you can access important information with ease and without distractions.
 
 # Features
 
@@ -23,6 +23,9 @@ Blocks ads on websites without getting detected.
 4. Enable Developer Mode.
 5. Drag the `dist` folder that is in `hover-extension-master` onto anywhere on the Chrome page to import it! (do not delete the folder afterwards)
 6. Enjoy!
+
+## Download from the Chrome Web Store (10,000+ Downloads) (currently down):
+## https://chrome.google.com/webstore/detail/hover-paywall-bypasser/ajbennpkmbahpfdalicgaogjbfhngeok
 
 # How To Contribute
 Fork the repository and improve Hover!
