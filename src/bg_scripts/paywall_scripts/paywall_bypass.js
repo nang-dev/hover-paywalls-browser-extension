@@ -29,17 +29,18 @@ function bypassPaywalls(details) {
 
   paywallEnabled = true;
   //Redirect Referer
-
-  details.requestHeaders = details.requestHeaders.filter(function(header) {
-    if(header.name === "Referer")
-      return false
-    return true
-  })
-  details.requestHeaders.push({
-    "name": "Referer",
-    "value": "https://t.co/"
-  })
-  console.log("Changed Header to Twitter")
+  if (!(rootSearch in paywallSMWhitelistDict)) {
+    details.requestHeaders = details.requestHeaders.filter(function(header) {
+      if(header.name === "Referer")
+        return false
+      return true
+    })
+    details.requestHeaders.push({
+      "name": "Referer",
+      "value": "https://t.co/"
+    })
+    console.log("Changed Header to Twitter")
+  }
   
   //Set Cookie Permission as necessary
   if (!(rootSearch in paywallCookieWhitelistDict)) {

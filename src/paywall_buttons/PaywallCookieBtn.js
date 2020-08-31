@@ -44,12 +44,12 @@ class PaywallCookieBtn extends Component {
     let bg = chrome.extension.getBackgroundPage();
     if(bg.paywallEnabled) {
       if(this.state.inCookieWhitelist)
-        listBtn = <Button onClick={this.removeFromCookieWhitelist} variant="warning" style={{fontSize:"15px"}}>Block Cookies for Paywall</Button>
+        listBtn = <Button onClick={this.removeFromCookieWhitelist} variant="warning" style={{fontSize:"15px"}}>Block Cookies</Button>
       else
-        listBtn = <Button onClick={this.addToCookieWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unblock Cookies for Paywall</Button>
+        listBtn = <Button onClick={this.addToCookieWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unblock Cookies</Button>
     }
     else {
-      listBtn = <Button variant="outline-info" style={{fontSize:"15px"}} disabled>Paywall Bypass Disabled</Button>
+      listBtn = <Button variant="outline-info" style={{fontSize:"15px"}} disabled>Bypass Paywall Disabled On Site</Button>
     }
     return (<div>
       {listBtn}

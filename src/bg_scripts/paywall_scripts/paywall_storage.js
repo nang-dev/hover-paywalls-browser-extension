@@ -4,25 +4,6 @@
 
 var paywallInBlacklist = false;
 
-function checkPaywallBlackList(root) {
-  rootSearch = "*://*." + root + "/*"
-  if(root !== "failed") {
-    paywallInBlacklist = (rootSearch in paywallBlacklistDict)
-    paywallEnabled =  (rootSearch in paywallBlacklistDict)
-    console.log("paywallEnabled: " + paywallEnabled)
-  }
-}
-
-function updatePaywallBlackList(details) {
-  getCurrentTabRoot(checkPaywallBlackList)
-}
-
-chrome.webRequest.onCompleted.addListener(updatePaywallBlackList, 
-{
-  urls: ["<all_urls>"],
-  types: ["main_frame"],
-})
-
 //Set the storage to default site blacklist on install
 function setDefaultPaywallBlacklist(details) {
   if (details.reason === 'install') {

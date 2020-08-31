@@ -4,29 +4,6 @@
 
 var paywallInSpoofWhitelist = true;
 
-function checkPaywallSpoofWhitelist(details) {
-  root = extractRootWebsite(details.url)
-  rootSearch = "*://*." + root + "/*"
-  if(root !== "failed")
-    paywallInSpoofWhitelist =  (rootSearch in paywallSpoofWhitelistDict)
-}
-
-chrome.webRequest.onCompleted.addListener(checkPaywallSpoofWhitelist, 
-{
-  urls: ["<all_urls>"],
-  types: ["main_frame"],
-})
-
-//Set the storage to default site blacklist on install
-function setDefaultPaywallSpoofWhitelist(details) {
-  if (details.reason === 'install') {
-    chrome.storage.sync.set({
-      paywallSpoofWhitelistDict: paywallSpoofWhitelistDict
-    })
-  }
-}
-chrome.runtime.onInstalled.addListener(setDefaultPaywallSpoofWhitelist);
-
 function addToPaywallSpoofWhitelist(root) {
   chrome.storage.sync.get(["paywallSpoofWhitelistDict"],
   (result) => {

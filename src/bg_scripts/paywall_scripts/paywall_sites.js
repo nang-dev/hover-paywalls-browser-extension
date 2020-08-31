@@ -8,6 +8,7 @@ var paywallBlacklistDict = {
     "*://*.baltimoresun.com/*": "1",
     "*://*.barrons.com/*": "1",
     "*://*.bloomberg.com/*": "1",
+    "*://*.businessinsider.com/*": "1",
     "*://*.chicagobusiness.com/*": "1",
     "*://*.chicagotribune.com/*": "1",
     "*://*.chip.de/*": "1",
@@ -68,7 +69,11 @@ var paywallBlacklistDict = {
     "*://*.washingtonpost.com/*": "1",
     "*://*.wired.com/*": "1",
     "*://*.wsj.com/*": "1",
-    "*://*.wsj.net/*": "1"
+    "*://*.wsj.net/*": "1",
+    
+}
+
+var paywallSMWhitelistDict = {
 }
 
 var paywallSpoofWhitelistDict = {
@@ -87,4 +92,5 @@ var paywallCookieWhitelistDict = {
     "*://*.newyorker.com/*": "1",
     "*://*.theathletic.com/*": "1",
     "*://*.theathletic.co.uk/*": "1",
+    "*://*.businessinsider.com/*": "1"
 }

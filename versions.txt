@@ -1,3 +1,20 @@
+Hover v2.2.8 8-29-2020
+Giving up on trying to get on Chrome Store (removed due to paywall policies)
+
+Hover v2.2.7 8-27-2020
+Re-add adblocker 
+Reword to avoid bypassing paywalls
+
+Hover v2.2.6 8-25-2020
+Remove unused permissions from manifest
+Cleanup paywall scripts code (install and update listeners)
+
+Hover v2.2.5 8-24-2020
+Remove Adblock Functionality (Chrome Store does not allow multiple features in tool)
+
+Hover v2.2.4 8-23-2020
+Remove Adblock Settings (Chrome Store does not allow multiple features in tool)
+
 Hover v2.2.3 8-11-2020
 Edit manifest.json and metadata.
 

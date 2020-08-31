@@ -71,7 +71,7 @@ class EnableAdblockBtn extends Component {
       <Container fluid>
         <Row>
           <Col xs={7} >
-          <b>AdBlock: </b><br></br>
+          <b>Block Ads: </b><br></br>
           <p style={{fontSize:"14px"}}>(On Site):</p>
           </Col>
           <Col xs={5}>
