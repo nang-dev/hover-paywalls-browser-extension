@@ -46,7 +46,7 @@ class PaywallSpoofBtn extends Component {
       if(this.state.inSpoofWhitelist)
         listBtn = <Button onClick={this.removeFromSpoofWhitelist} variant="warning" style={{fontSize:"15px"}}>Spoof Site as Crawler</Button>
       else
-        listBtn = <Button onClick={this.addToSpoofWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unspoof Site Aa Crawler</Button>
+        listBtn = <Button onClick={this.addToSpoofWhitelist} variant="outline-info" style={{fontSize:"15px"}}>Unspoof Site as Crawler</Button>
     }
     else {
       listBtn = <Button onClick={this.addToSpoofWhitelist} variant="outline-info" style={{fontSize:"15px"}} disabled>Bypass Paywall Disabled On Site</Button>
