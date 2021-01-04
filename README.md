@@ -19,12 +19,12 @@ Access more content on the internet. Made so you can access important informatio
 5. Drag the `dist` folder that is in `hover-extension-master` onto anywhere on the Chrome page to import it! (do not delete the folder afterwards)
 6. Enjoy!
 
-## Download from the Chrome Web Store (10,000+ Downloads) (currently down):
+## Download from the Chrome Web Store (10,000+ Downloads + 5/5 Rating) (Down because Google does not allow bypassing paywalls):
 ## https://chrome.google.com/webstore/detail/hover-paywall-bypasser/ajbennpkmbahpfdalicgaogjbfhngeok
 
 # How To Contribute
 Fork the repository and improve Hover!
-Make edits in src folder, and then run ```npm run build```. This will create the dist folder, which is used by browsers.
+Make edits in src folder, and then run ```npm run build```. This will create the dist folder, which is used by browsers (see Download Locally Step 5).
 
 Current stable version: 2.2.7
 Dev version: 2.2.8
@@ -35,6 +35,9 @@ Transfer into a Firefox extension.
 ## Notes
 
 -The only permissions/settings the extension utilizes are for webRequest and cookie functionality, and nothing more.
+
+-Does not work on some websites.
+
 
 Disclaimer: 
 Do not use this extension to violate the terms of service/use of any website.
