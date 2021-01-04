@@ -30,7 +30,9 @@ Current stable version: 2.2.7
 Dev version: 2.2.8
 
 ## Next Steps
-Transfer into a Firefox extension.
+Transfer into a Firefox extension. \
+Make Hover work for more sites. \
+Try to get back onto Google Chrome Store.
 
 ## Notes
 
