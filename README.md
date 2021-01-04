@@ -36,7 +36,7 @@ Transfer into a Firefox extension.
 
 -The only permissions/settings the extension utilizes are for webRequest and cookie functionality, and nothing more.
 
--Does not work on some websites.
+-May not work on some websites.
 
 
 Disclaimer: 
