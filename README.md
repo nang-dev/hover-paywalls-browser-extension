@@ -24,10 +24,11 @@ Access more content on the internet. Made so you can access important informatio
 ## Download from the Chrome Web Store (10,000+ Downloads + 5/5 Rating) (Down because Google does not allow bypassing paywalls):
 ## https://chrome.google.com/webstore/detail/hover-paywall-bypasser/ajbennpkmbahpfdalicgaogjbfhngeok
 
-# How To Use
+# How To Use / Demo
 Enable in Hover Extension in Google Chrome, and you should see it on the top right along with your other Chrome extensions. \
 To bypass paywalls on the website domain you're on, simply click on the "Bypass Paywalls" toggle button. \
 It should work automatically! Enjoy :) \
+![Hover_Demo](slideshow/demo.gif)
 
 If it doesn't work right away, go to the "Advanced" tab, and try different combinations of the strategies to bypass the paywal using the Toggle buttons. Almost always, enabling just one of them will do the trick, but it depends on the website. 
 
