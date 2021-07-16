@@ -15,10 +15,10 @@ Access more content on the internet. Made so you can access important informatio
 ## Download Locally: 
 **Google Chrome**
 1. Download this repo as a [ZIP file from GitHub](https://github.com/hover-inc/hover-extension/archive/master.zip).
-2. Unzip the file and you should have a folder named `hover-extension-master`.
+2. Unzip the file and you should have a folder named `hover-paywalls-browser-extension-master`.
 3. In Chrome go to the extensions page (`chrome://extensions`).
-4. Enable Developer Mode.
-5. Drag the `dist` folder that is in `hover-extension-master` onto anywhere on the Chrome page to import it! (do not delete the folder afterwards)
+4. Enable Developer Mode at the top right.
+5. Drag the `dist` folder that is in `hover-paywalls-browser-extension-master` onto anywhere on the Chrome page to import it! (do not delete the folder afterwards)
 6. Enjoy!
 
 ## Download from the Chrome Web Store (10,000+ Downloads + 5/5 Rating) (Down because Google does not allow bypassing paywalls):
