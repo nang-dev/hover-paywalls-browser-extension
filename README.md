@@ -32,6 +32,8 @@ It should work automatically! Enjoy :) \
 
 If it doesn't work right away, go to the "Advanced" tab, and try different combinations of the strategies to bypass the paywal using the Toggle buttons. Almost always, enabling just one of them will do the trick, but it depends on the website. 
 
+Many times, clicking "Block Cookies" and then "Unblock Cookies" will do the trick, as you clear your stored cookies!
+
 # How To Contribute
 Fork the repository and improve Hover!
 Make edits in src folder, and then run ```npm run build```. This will create the dist folder, which is used by browsers (see Download Locally Step 5).
@@ -50,6 +52,9 @@ Try to get back onto Google Chrome Store.
 
 -May not work on some websites.
 
+## Sponsor / Donate
+
+If you enjoy the extension, feel free to sponsor us here: paypal.me/sponsorhover
 
 Disclaimer: 
 Do not use this extension to violate the terms of service/use of any website.
