@@ -54,7 +54,7 @@ Try to get back onto Google Chrome Store.
 
 ## Sponsor / Donate
 
-If you enjoy the extension, feel free to sponsor us here: [paypal.me/sponsorhover](paypal.me/sponsorhover)
+If you enjoy the extension, feel free to sponsor us here: https://paypal.me/sponsorhover
 
 Disclaimer: 
 Do not use this extension to violate the terms of service/use of any website.
