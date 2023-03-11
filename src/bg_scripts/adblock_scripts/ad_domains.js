@@ -11211,7 +11211,6 @@ var adDomains = [
     "*://*.deviceidshare.twitch.tv/*",
     "*://*.ads.twitter.com/*",
     "*://*.ads-bidder-api.twitter.com/*",
-    "*://*.analytics.twitter.com/*",
     "*://*.scribe.twitter.com/*",
     "*://*.u-ad.info/*",
     "*://*.lightstep-collector.api.ua.com/*",
