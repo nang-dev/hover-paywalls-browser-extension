@@ -1,6 +1,8 @@
 ![Hover](slideshow/hover_logo.png)
 
-### An open-sourced extension that that bypasses paywalls and blocks ads. Made so you can access important information with ease and without distractions.
+### An open source extension that that bypasses paywalls and blocks ads. Made so you can access important information with ease and without distractions.
+
+# 🙌 THANK YOU FOR 100k+ DOWNLOADS AND 5/5 STAR RATING ON GOOGLE EXTENSION STORE. UNFORTUNATELY, HOVER IS NOW DEPRICATED. FOLLOW THE NEXT PROJECT AT [youtube.com/nang88](youtube.com/nang88)
 
 ![Hover_1](slideshow/ss8/1.png)
 ![Hover_2](slideshow/ss8/2.png)
